@@ -1,6 +1,6 @@
 body{
     background-color:rgb(29, 26, 26);
-    margin-top: 0px;
+    margin: 0px;
 }
 
 /* For main heading */
@@ -8,6 +8,7 @@ body{
     background-color:rgb(13, 108, 200) ;
     margin:0px 0px;
     width:100%;
+    transition: background-color 0.6s;
 }
 
 h1{
@@ -55,11 +56,13 @@ button{
     color:rgb(13, 108, 200);
     letter-spacing: 1;
     outline:none;
+    
 }
 
 button:hover{
     color:white;
     background-color: rgb(13, 108, 200);
+    transition: background-color 0.4s;
 }
 
 .selected{
@@ -80,7 +83,7 @@ button:hover{
     margin:1.66%;
     padding-top: 30%;
     border-radius:15%;
-    transition-property:background-color 6s;
+    transition:background-color 0.7s;
 }
 
 
