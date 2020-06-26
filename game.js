@@ -3,6 +3,7 @@ let heading=document.querySelector("#heading");
 let mode=document.querySelectorAll("button");
 
 let message=document.querySelector("#message");
+
 let reset=document.querySelector("#reset");
 
 let squares=document.querySelectorAll(".squares");
